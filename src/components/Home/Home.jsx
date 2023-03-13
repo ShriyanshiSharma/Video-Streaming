@@ -19,9 +19,9 @@ const Home  = () => {
         </div>
         <div className='home-1' data-aos="zoom-in">
             <div className='video'>
-                <ReactPlayer  style={{borderRadius:"10px"}} url='https://www.youtube.com/watch?v=jzYxbnHHhY4' controls="true" width='600px' height='300px' />
-                <p>Bhool Bhulaiyaa (Full Movie)</p>
+                <ReactPlayer className="vid" url='https://www.youtube.com/watch?v=jzYxbnHHhY4' controls="true" width='500px' height='250px' />
             </div>
+                <p>Bhool Bhulaiyaa (Full Movie)</p>
         </div>
     </div>
     </>

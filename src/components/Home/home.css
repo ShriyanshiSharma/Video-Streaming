@@ -14,17 +14,35 @@
     padding-right: 40px;
 }
 .head{
-    font-size: 50px;
+    font-size: 48px;
 }
 .video{
-    border-radius: 20px;
-    /* background-color: aqua; */
-    display:grid;
+    position: relative;
+    display:flex ;
     justify-content:center ;
     align-items: center;
-    padding: 50px 50px 0px 50px;
+    padding: 0px 0.2px 0px 0.2px;
+    width:510px;
+    height: 260px;
+    overflow: hidden;
+}
+.video::before{
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 140%;
+    background: linear-gradient(#140995, #d400d4);
+    animation: animate 4s linear infinite;
 }
 
-.react-player{
-    border-radius: 6px;
+@keyframes  animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(350deg);
+    }
+}
+.video .vid{
+    z-index: 10;
 }

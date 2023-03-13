@@ -1,6 +1,7 @@
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Navbar/Sidebar";
+import Slider from "./components/Slider/Slider";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Sidebar/>
     <Navbar/>
     <Home/>
+    <Slider/>
     </>
   );
 }
