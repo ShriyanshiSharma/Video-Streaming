@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital@0;1&display=swap');
+
 .sidebar{
     margin: 0;
-    padding: 0px 5px 0px 0px;
+    padding: 0px 0px 0px 0px;
     width: 5%;
     height: 100vh;
     position: fixed;
     list-style: none;
     text-decoration: none;
     padding-left: 10px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display:block;
     justify-content: space-around;
     text-align: center;
@@ -26,11 +28,103 @@
     border-left: 2px solid #e473ff;
 }
 .svg{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     filter:invert(1);
+    padding: 5px;
 }
 
 .navbar{
-    width: 95%;
+    width: 94%;
+    margin: 0% 0% 0% 6%;
+    display: flex;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    align-items: center;
+}
+.navbar h1{
+    margin: 0;
+    padding: 0;
+    margin-left:20px;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.top-display ul{
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    font-size:15px;
+}
+
+.list-display li{
+    padding: 0px 10px 0px 10px;
+}
+
+.search-bar{
+    margin-left: 250px;
+}
+
+.search-bar input{
+    padding: 10px;
+    border-radius: 6px;
+    border: black  solid 0px;
+    width: 250px;
+    background-color: #1c1d1f;
+    background-image: url('../asstes/find.svg');
+    background-repeat: no-repeat ;
+    background-size:23px;
+    background-position:10px;
+
+}
+
+.last-sec{
+    position: relative;
+    right: -210px;
+    justify-content: center;
+    align-items: center;
+}
+.last-sec ul{
+    display: flex;
+    list-style: none;
+    /* background-color: antiquewhite; */
+}
+
+.notify{
+    filter: invert(1);
+    padding: 20px;
+}
+
+
+.user{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.pic{
+    margin-right: 30px;
+    width:50px;
+    height: 50px;
+    border-radius: 15px;
+    background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,56,253,1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.user p {
+    padding: 0px 15px;
+}
+
+.pic img {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 2px;
 }
