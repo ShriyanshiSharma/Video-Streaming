@@ -50,25 +50,26 @@
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
-    font-weight: 900;
+    font-weight:bolder;
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .top-display ul{
+    /* background-color: #e473ff; */
     display: flex;
     list-style: none;
     margin-left: 15px;
     font-size:15px;
+    font-weight: 900;
 }
-
+.search-bar{
+    padding-right: 60px;
+}
 .list-display li{
     padding: 0px 10px 0px 10px;
 }
 
-.search-bar{
-    margin-left: 250px;
-}
 
 .search-bar input{
     padding: 10px;
@@ -83,18 +84,6 @@
 
 }
 
-.last-sec{
-    position: relative;
-    right: -210px;
-    justify-content: center;
-    align-items: center;
-}
-.last-sec ul{
-    display: flex;
-    list-style: none;
-    /* background-color: antiquewhite; */
-}
-
 .notify{
     filter: invert(1);
     padding: 20px;
@@ -102,6 +91,7 @@
 
 
 .user{
+    /* background-color: antiquewhite; */
     align-items: center;
     display: flex;
     position: absolute;
@@ -120,6 +110,7 @@
 
 .user p {
     padding: 0px 15px;
+    font-weight: 600;
 }
 
 .pic img {

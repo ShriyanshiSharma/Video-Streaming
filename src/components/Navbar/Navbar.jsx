@@ -14,20 +14,12 @@ const Navbar = () => {
                 <li>Coming Soon</li>
             </ul>
         </div>
-        <div className="search-bar">
-            <input type= "text" placeholder="        Search.."/>
-        </div>
-        <div className="last-sec">
-            <ul>
-                <li>
-                    <img className="notify" src={noti} width="17px"/>
-                </li>
-                <li>
-                    <img className="notify" src={bell} width="17px"/>
-                </li>
-            </ul>
-        </div>
         <div className="user">
+            <div className="search-bar">
+                <input type= "text" placeholder="        Search.."/>
+            </div>
+            <img className="notify" src={noti} width="17px"/>
+            <img className="notify" src={bell} width="17px"/>
             <p>John</p>
             <div className="pic">
                 <img src="https://www.dlisted.com/files/johntravoltaanothermasseur.jpg" alt="user"/>
